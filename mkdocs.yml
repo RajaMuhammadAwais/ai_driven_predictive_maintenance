@@ -1,4 +1,18 @@
 site_name: My Project Documentation
+site_url: https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/
+repo_url: https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance
+use_directory_urls: true
+
 theme:
   name: material
+
 docs_dir: docs
+
+nav:
+  - Data Ingestion and Preprocessing Module: data_ingestion_module_documentation.md
+  - Predictive Failure Detection Model: predictive_failure_detection_model_documentation.md
+  - Research:
+      - Dynamic Resource Allocation in AI-Driven Predictive Maintenance for Distributed Systems: research_dynamic_resource_allocation.md
+      - Evaluating Fault Tolerance in Distributed Systems using Predictive Analytics with Gated Recurrent Unit and Long Short-Term Memory Models: research_predictive_failure_detection.md
+  - AI-Driven Root Cause Prediction Model: root_cause_prediction_model_documentation.md
+  - Root Cause Prediction Research: root_cause_prediction_research.md
