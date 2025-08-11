@@ -128,7 +128,7 @@ class TimeSeriesForecaster:
         return predictions
 
 if __name__ == "__main__":
-    data_file = "/home/ubuntu/synthetic_predictive_maintenance_data.csv"
+    data_file = "synthetic_predictive_maintenance_data.csv"
     features = ["cpu_load", "memory_usage", "disk_activity"]
     target = "cpu_load" # Predicting CPU load as an example
     timesteps = 60 # Using 60 minutes of data to predict next
