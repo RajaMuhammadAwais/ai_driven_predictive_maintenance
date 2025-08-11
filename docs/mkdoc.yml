@@ -1,0 +1,10 @@
+site_name: My Project Documentation
+theme:
+  name: material
+nav:
+  - Home: data_ingestion_module_documentation.md
+  - Predictive Failure Detection Model: predictive_failure_detection_model_documentation.md
+  - Research:
+      - Dynamic Resource Allocation: research_dynamic_resource_allocation.md
+      - Predictive Failure Detection: research_predictive_failure_detection.md
+  - Root Cause Prediction Model: root_cause_prediction_model_documentation.md
