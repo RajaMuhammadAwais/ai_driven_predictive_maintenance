@@ -1,19 +1,40 @@
 site_name: AI-Driven Predictive Maintenance
+site_description: Research and implementation of predictive maintenance using AI, ML, and advanced analytics
+site_author: Raja Muhammad Awais
 site_url: https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/
 repo_url: https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance
-edit_uri: ""
+edit_uri: ""   # Removes "edit on GitHub" links
 use_directory_urls: true
 
 theme:
   name: material
+  logo: images/logo.png       # optional: add your logo
+  favicon: images/favicon.ico # optional: add your favicon
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+    - scheme: slate
+      primary: indigo
+      accent: cyan
 
 docs_dir: docs
 
 nav:
-  - Data Ingestion and Preprocessing Module: data_ingestion_module_documentation.md
-  - Predictive Failure Detection Model: predictive_failure_detection_model_documentation.md
-  - Research:
+  - 📊 Overview:
+      - Introduction: index.md
+      - Data Ingestion & Preprocessing: data_ingestion_module_documentation.md
+      - Predictive Failure Detection Model: predictive_failure_detection_model_documentation.md
+  - 🔬 Research:
       - Dynamic Resource Allocation: research_dynamic_resource_allocation.md
-      - Evaluating Fault Tolerance: research_predictive_failure_detection.md
-  - AI-Driven Root Cause Prediction Model: root_cause_prediction_model_documentation.md
-  - Root Cause Prediction Research: root_cause_prediction_research.md
+      - Fault Tolerance with GRU & LSTM: research_predictive_failure_detection.md
+      - AI-Driven Root Cause Prediction Model: root_cause_prediction_model_documentation.md
+      - Root Cause Prediction Research: root_cause_prediction_research.md
+  - 📜 License: ../LICENSE
