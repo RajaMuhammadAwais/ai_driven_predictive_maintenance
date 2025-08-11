@@ -7,6 +7,9 @@
 # ![Issues](https://img.shields.io/github/issues/RajaMuhammadAwais/ai_driven_predictive_maintenance)
 # ![Last Commit](https://img.shields.io/github/last-commit/RajaMuhammadAwais/ai_driven_predictive_maintenance)
 # AI-Driven Predictive Maintenance
+## 📚 Documentation
+Full project documentation is available here:  
+[AI-Driven Predictive Maintenance Docs](https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/)
 
 This repository contains modules and research for predictive maintenance using AI and machine learning techniques. The project is organized for clarity and scalability.
 
