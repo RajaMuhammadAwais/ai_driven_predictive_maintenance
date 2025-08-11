@@ -10,7 +10,7 @@ This research-driven system leverages **machine learning, deep learning, and sta
 - Comprehensive data ingestion & preprocessing modules
 
 ## Architecture
-![System Architecture](../images/system_architecture.png)
+![System Architecture](./images/system_architecture.png)
 
 ## Get Started
 - Read the [Data Ingestion & Preprocessing](data_ingestion_module_documentation.md) guide.
