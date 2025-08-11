@@ -1,11 +1,7 @@
-# ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-# ![License](https://img.shields.io/github/license/RajaMuhammadAwais/ai_driven_predictive_maintenance)
-# ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
-# ![Repo Size](https://img.shields.io/github/repo-size/RajaMuhammadAwais/ai_driven_predictive_maintenance)
-# ![Forks](https://img.shields.io/github/forks/RajaMuhammadAwais/ai_driven_predictive_maintenance?style=social)
-# ![Stars](https://img.shields.io/github/stars/RajaMuhammadAwais/ai_driven_predictive_maintenance?style=social)
-# ![Issues](https://img.shields.io/github/issues/RajaMuhammadAwais/ai_driven_predictive_maintenance)
-# ![Last Commit](https://img.shields.io/github/last-commit/RajaMuhammadAwais/ai_driven_predictive_maintenance)
+# ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/github/license/RajaMuhammadAwais/ai_driven_predictive_maintenance)
+# ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)  ![Repo Size](https://img.shields.io/github/repo-size/RajaMuhammadAwais/ai_driven_predictive_maintenance)
+# ![Forks](https://img.shields.io/github/forks/RajaMuhammadAwais/ai_driven_predictive_maintenance?style=social)  ![Stars](https://img.shields.io/github/stars/RajaMuhammadAwais/ai_driven_predictive_maintenance?style=social)
+# ![Issues](https://img.shields.io/github/issues/RajaMuhammadAwais/ai_driven_predictive_maintenance)  ![Last Commit](https://img.shields.io/github/last-commit/RajaMuhammadAwais/ai_driven_predictive_maintenance)
 # AI-Driven Predictive Maintenance
 ## 📚 Documentation
 Full project documentation is available here:  
