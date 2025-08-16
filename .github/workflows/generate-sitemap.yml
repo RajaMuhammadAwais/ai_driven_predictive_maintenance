@@ -20,13 +20,13 @@ jobs:
 
     - name: Generate sitemap
       run: |
-        npm install -g sitemap-generator-cli
-        sitemap-generator-cli --url https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/sitemap.xml
+        npm install sitemap-generator-cli
+        npx sitemap-generator-cli --url https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/ --filepath ./sitemap.xml
 
     - name: Commit & Push sitemap
       run: |
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
         git add sitemap.xml
-        git commit -m "Update sitemap"
+        git commit -m "Update sitemap" || echo "No changes to commit"
         git push
