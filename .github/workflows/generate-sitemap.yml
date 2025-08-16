@@ -22,7 +22,8 @@ jobs:
         run: npm install sitemap-generator-cli
 
       - name: Generate sitemap
-        run: npx sitemap-generator-cli --url https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/ --filepath ./sitemap.xml
+        run: |
+          npx sitemap-generator-cli https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/ --filepath ./sitemap.xml
 
       - name: Commit & Push sitemap
         run: |
