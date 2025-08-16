@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/sitemap.xml
