@@ -15,8 +15,9 @@ jobs:
       - name: Generate sitemap.xml
         uses: cicirello/generate-sitemap@v1
         with:
-          url: https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/
-          filepath: ./sitemap.xml
+          path-to-root: .   # Repo ka root folder
+          base-url-path: https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/
+          sitemap-format: xml
 
       - name: Generate robots.txt
         run: |
