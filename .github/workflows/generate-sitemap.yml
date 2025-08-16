@@ -10,23 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Install Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20'
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
 
-    - name: Generate sitemap
-      run: |
-        npm install sitemap-generator-cli
-        npx sitemap-generator-cli --url https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/ --filepath ./sitemap.xml
+      - name: Install sitemap-generator-cli
+        run: npm install sitemap-generator-cli
 
-    - name: Commit & Push sitemap
-      run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "github-actions@github.com"
-        git add sitemap.xml
-        git commit -m "Update sitemap" || echo "No changes to commit"
-        git push
+      - name: Generate sitemap
+        run: npx sitemap-generator-cli --url https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/ --filepath ./sitemap.xml
+
+      - name: Commit & Push sitemap
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add sitemap.xml
+          git commit -m "Update sitemap" || echo "No changes to commit"
+          git push
