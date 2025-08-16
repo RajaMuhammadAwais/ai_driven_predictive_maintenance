@@ -1,0 +1,31 @@
+name: SEO Automation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate sitemap.xml
+        uses: cicirello/generate-sitemap@v1
+        with:
+          url: https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/
+          filepath: ./sitemap.xml
+
+      - name: Generate robots.txt
+        run: |
+          echo "User-agent: *" > robots.txt
+          echo "Allow: /" >> robots.txt
+          echo "Sitemap: https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/sitemap.xml" >> robots.txt
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "Update sitemap.xml and robots.txt"
+          branch: main
