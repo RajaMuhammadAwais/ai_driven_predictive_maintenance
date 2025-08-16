@@ -15,7 +15,7 @@ jobs:
       - name: Generate sitemap.xml
         uses: cicirello/generate-sitemap@v1
         with:
-          path-to-root: .   # Repo ka root
+          path-to-root: .   # Repo root
           base-url-path: https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/
           sitemap-format: xml
 
@@ -24,10 +24,6 @@ jobs:
           echo "User-agent: *" > robots.txt
           echo "Allow: /" >> robots.txt
           echo "Sitemap: https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/sitemap.xml" >> robots.txt
-
-      - name: Move SEO files to site root
-        run: |
-          cp sitemap.xml robots.txt .
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v6
