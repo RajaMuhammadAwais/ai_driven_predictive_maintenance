@@ -26,10 +26,6 @@ Predictive maintenance leverages AI to anticipate equipment failures, optimize r
 ## Root Cause Decision Tree
 ![Root Cause Decision Tree](images/root_cause_decision_tree.png)
 
-## Getting Started
-1. Clone the repository
-2. Install dependencies
-3. Run scripts from the `src/` directory
 
 ## License
 MIT
