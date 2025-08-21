@@ -1,3 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/</loc>
+  </url>
+  <url>
+    <loc>https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/data_ingestion_module_documentation/</loc>
+  </url>
+  <url>
+    <loc>https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/predictive_failure_detection_model_documentation/</loc>
+  </url>
+  <url>
+    <loc>https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/root_cause_prediction_model_documentation/</loc>
+  </url>
+  <url>
+    <loc>https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/Predictive%20Auto-Tuning%20Research/</loc>
+  </url>
+  <url>
+    <loc>https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/research_dynamic_resource_allocation/</loc>
+  </url>
+  <url>
+    <loc>https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/research_predictive_failure_detection/</loc>
+  </url>
+  <url>
+    <loc>https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/root_cause_prediction_research/</loc>
+  </url>
 </urlset>
