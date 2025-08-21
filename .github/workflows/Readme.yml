@@ -47,10 +47,14 @@ jobs:
         echo "python src/anomaly_detection.py" >> README.md
         echo '```' >> README.md
 
-    - name: Commit and push README
-      run: |
+        - name: Commit and push README
+        run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git fetch origin main
+        git checkout main
+        git pull --rebase origin main
         git add README.md
-        git commit -m "🤖 Auto-update README"
-        git push
+        git commit -m "🤖 Auto-update README" || echo "No changes to commit"
+        git push origin main
+
