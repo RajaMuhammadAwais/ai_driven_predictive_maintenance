@@ -1,0 +1,56 @@
+name: Auto Generate README
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  generate-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Generate README
+      run: |
+        echo "# AI Driven Predictive Maintenance 🚀" > README.md
+        echo "" >> README.md
+        echo "This project provides **AI-powered predictive maintenance** tools using anomaly detection, time series forecasting, root cause analysis, and dynamic resource allocation." >> README.md
+        echo "" >> README.md
+        echo "## 📂 Project Structure" >> README.md
+        echo "" >> README.md
+        echo '```' >> README.md
+        tree -L 2 -I ".git|.github|__pycache__|*.egg-info|*.log|*.pyc|node_modules|env|venv" >> README.md
+        echo '```' >> README.md
+        echo "" >> README.md
+        echo "## 🔑 Key Modules" >> README.md
+        echo "- **anomaly_detection.py** → Detect unusual equipment behavior" >> README.md
+        echo "- **data_ingestion.py** → Ingest and preprocess raw data" >> README.md
+        echo "- **dynamic_resource_allocation.py** → Smart allocation of compute/resources" >> README.md
+        echo "- **generate_root_cause_data.py** → Generate synthetic root cause datasets" >> README.md
+        echo "- **generate_synthetic_data.py** → Create simulated training datasets" >> README.md
+        echo "- **predictive_failure_detection.py** → Predict component/machine failures" >> README.md
+        echo "- **root_cause_prediction.py** → Identify underlying causes of anomalies" >> README.md
+        echo "- **time_series_forecasting.py** → Forecast sensor/equipment data trends" >> README.md
+        echo "" >> README.md
+        echo "## 🧪 How to Run" >> README.md
+        echo '```bash' >> README.md
+        echo "git clone https://github.com/${{ github.repository }}.git" >> README.md
+        echo "cd $(basename ${{ github.repository }})" >> README.md
+        echo "python src/anomaly_detection.py" >> README.md
+        echo '```' >> README.md
+
+    - name: Commit and push README
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add README.md
+        git commit -m "🤖 Auto-update README"
+        git push
