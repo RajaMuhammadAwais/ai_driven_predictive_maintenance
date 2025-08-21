@@ -1,31 +1,58 @@
-# ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/github/license/RajaMuhammadAwais/ai_driven_predictive_maintenance)
-# ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)  ![Repo Size](https://img.shields.io/github/repo-size/RajaMuhammadAwais/ai_driven_predictive_maintenance)
-# ![Forks](https://img.shields.io/github/forks/RajaMuhammadAwais/ai_driven_predictive_maintenance?style=social)  ![Stars](https://img.shields.io/github/stars/RajaMuhammadAwais/ai_driven_predictive_maintenance?style=social)
-# ![Issues](https://img.shields.io/github/issues/RajaMuhammadAwais/ai_driven_predictive_maintenance)  ![Last Commit](https://img.shields.io/github/last-commit/RajaMuhammadAwais/ai_driven_predictive_maintenance)
-# AI-Driven Predictive Maintenance
-## 📚 Documentation
-Full project documentation is available here:  
-[AI-Driven Predictive Maintenance Docs](https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/)
+# AI Driven Predictive Maintenance 🚀
 
-This repository contains modules and research for predictive maintenance using AI and machine learning techniques. The project is organized for clarity and scalability.
+This project provides **AI-powered predictive maintenance** tools using anomaly detection, time series forecasting, root cause analysis, and dynamic resource allocation.
 
-## Project Structure
-- `src/`: Python scripts and models
-- `data/`: Synthetic and real datasets
-- `docs/`: Documentation and research
-- `images/`: Diagrams and visualizations
+## 📂 Project Structure
 
-## Overview
-Predictive maintenance leverages AI to anticipate equipment failures, optimize resource allocation, and identify root causes of anomalies. This project includes:
-- Data ingestion and preprocessing
-- Anomaly detection
-- Predictive failure detection
-- Root cause analysis
-- Time series forecasting
+```
+.
+├── LICENSE
+├── README.md
+├── data
+│   ├── synthetic_predictive_maintenance_data.csv
+│   └── synthetic_root_cause_data.csv
+├── docs
+│   ├── Predictive Auto-Tuning Research.md
+│   ├── data_ingestion_module_documentation.md
+│   ├── index.md
+│   ├── predictive_failure_detection_model_documentation.md
+│   ├── research_dynamic_resource_allocation.md
+│   ├── research_predictive_failure_detection.md
+│   ├── root_cause_prediction_model_documentation.md
+│   └── root_cause_prediction_research.md
+├── images
+│   ├── Architecture.png
+│   ├── root_cause_decision_tree
+│   └── root_cause_decision_tree.png
+├── mkdocs.yml
+├── robots.txt
+├── sitemap.xml
+└── src
+    ├── anomaly_detection.py
+    ├── data_ingestion.py
+    ├── dynamic_resource_allocation.py
+    ├── generate_root_cause_data.py
+    ├── generate_synthetic_data.py
+    ├── predictive_failure_detection.py
+    ├── root_cause_prediction.py
+    └── time_series_forecasting.py
 
-## Root Cause Decision Tree
-![Root Cause Decision Tree](images/root_cause_decision_tree.png)
+5 directories, 26 files
+```
 
+## 🔑 Key Modules
+- **anomaly_detection.py** → Detect unusual equipment behavior
+- **data_ingestion.py** → Ingest and preprocess raw data
+- **dynamic_resource_allocation.py** → Smart allocation of compute/resources
+- **generate_root_cause_data.py** → Generate synthetic root cause datasets
+- **generate_synthetic_data.py** → Create simulated training datasets
+- **predictive_failure_detection.py** → Predict component/machine failures
+- **root_cause_prediction.py** → Identify underlying causes of anomalies
+- **time_series_forecasting.py** → Forecast sensor/equipment data trends
 
-## License
-MIT
+## 🧪 How to Run
+```bash
+git clone https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance.git
+cd ai_driven_predictive_maintenance
+python src/anomaly_detection.py
+```
