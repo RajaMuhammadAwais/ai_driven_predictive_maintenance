@@ -5,11 +5,13 @@ site_url: https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/
 repo_url: https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance
 edit_uri: ""
 use_directory_urls: true
+copyright: "Copyright © 2025 Raja Muhammad Awais"
 
 theme:
   name: material
   logo: images/logo.png
   favicon: images/favicon.ico
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.expand
@@ -26,6 +28,14 @@ theme:
     - scheme: slate
       primary: indigo
       accent: cyan
+
+plugins:
+  - search
+  - sitemap:
+      changefreq: daily
+      priority: 0.5
+  - minify:
+      minify_html: true
 
 extra:
   social:

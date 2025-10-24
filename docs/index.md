@@ -1,3 +1,9 @@
+---
+title: AI-Driven Predictive Maintenance System
+description: AI-driven predictive maintenance with time-series forecasting, anomaly detection, causal root cause analysis, and reinforcement learning for dynamic resource optimization.
+keywords: predictive maintenance, AI, machine learning, anomaly detection, time series forecasting, root cause analysis, reinforcement learning, distributed systems, Kubernetes, IoT
+---
+
 # AI-Driven Predictive Maintenance System: Comprehensive Architecture Design
 
 ## 1. Introduction
