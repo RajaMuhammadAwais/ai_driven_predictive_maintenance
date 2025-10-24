@@ -5,6 +5,7 @@ site_url: https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/
 repo_url: https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance
 edit_uri: ""
 use_directory_urls: true
+copyright: "Copyright © 2025 Raja Muhammad Awais"
 
 theme:
   name: material
