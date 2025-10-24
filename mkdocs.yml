@@ -11,6 +11,7 @@ theme:
   name: material
   logo: images/logo.png
   favicon: images/favicon.ico
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.expand
@@ -27,6 +28,14 @@ theme:
     - scheme: slate
       primary: indigo
       accent: cyan
+
+plugins:
+  - search
+  - sitemap:
+      changefreq: daily
+      priority: 0.5
+  - minify:
+      minify_html: true
 
 extra:
   social:

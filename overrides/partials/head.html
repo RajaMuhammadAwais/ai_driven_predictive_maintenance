@@ -1,0 +1,47 @@
+{# Custom head partial for SEO: canonical, robots, OpenGraph, Twitter, JSON-LD #}
+{% if page and page.canonical_url %}
+<link rel="canonical" href="{{ page.canonical_url }}">
+{% endif %}
+
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="bingbot" content="index, follow">
+
+{# Open Graph #}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title | default(config.site_name) }}">
+<meta property="og:description" content="{{ page.meta.description | default(config.site_description) }}">
+{% if page and page.canonical_url %}
+<meta property="og:url" content="{{ page.canonical_url }}">
+{% endif %}
+{% if config.theme.logo %}
+<meta property="og:image" content="{{ (page.canonical_url | default(config.site_url)) ~ config.theme.logo | url }}">
+{% endif %}
+
+{# Twitter Cards #}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | default(config.site_name) }}">
+<meta name="twitter:description" content="{{ page.meta.description | default(config.site_description) }}">
+{% if config.theme.logo %}
+<meta name="twitter:image" content="{{ (page.canonical_url | default(config.site_url)) ~ config.theme.logo | url }}">
+{% endif %}
+
+{# JSON-LD Structured Data #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ config.site_name }}",
+  "url": "{{ config.site_url }}",
+  "description": "{{ config.site_description }}",
+  "publisher": {
+    "@type": "Person",
+    "name": "{{ config.site_author }}"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ config.site_url }}?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
