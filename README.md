@@ -1,4 +1,17 @@
 
+[![CI](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/actions/workflows/ci.yml)
+[![Docs Deploy](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/actions/workflows/jekyll-gh-pages.yml/badge.svg?branch=main)](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/actions/workflows/jekyll-gh-pages.yml)
+[![Auto README](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/actions/workflows/Readme.yml/badge.svg?branch=main)](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/actions/workflows/Readme.yml)
+[![Sitemap](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/actions/workflows/generate-sitemap.yml/badge.svg?branch=main)](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/actions/workflows/generate-sitemap.yml)
+[![SEO Automation](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/actions/workflows/seo-automation.yml/badge.svg?branch=main)](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/actions/workflows/seo-automation.yml)
+[![Humans](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/actions/workflows/humans.yml/badge.svg?branch=main)](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/actions/workflows/humans.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.10](https://img.shields.io/badge/Python-3.10-blue?logo=python)](#)
+[![Docs: MkDocs Material](https://img.shields.io/badge/Docs-MkDocs%20Material-blue?logo=mkdocs)](https://rajamuhammadawais.github.io/ai_driven_predictive_maintenance/)
+[![Stars](https://img.shields.io/github/stars/RajaMuhammadAwais/ai_driven_predictive_maintenance?style=social)](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/stargazers)
+[![Issues](https://img.shields.io/github/issues/RajaMuhammadAwais/ai_driven_predictive_maintenance)](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/RajaMuhammadAwais/ai_driven_predictive_maintenance)](https://github.com/RajaMuhammadAwais/ai_driven_predictive_maintenance/commits/main)
+
 **AI-Driven Predictive Maintenance and Dynamic Resource Optimisation for Distributed Systems: An Integrated Causal-Inference, Deep-Learning and Reinforcement-Learning Framework**  
 
 **Researcher:** [RAJA MUHAMMAD AWAIS]  
