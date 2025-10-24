@@ -132,6 +132,12 @@ Year 1: Systematic review, data-lake construction, baseline model replication.
 Year 2: Causal-inference module, RL agent training, internal validation.  
 Year 3: Prospective testbed deployment, cost-benefit analysis, thesis write-up, conferences & journal submissions.  
 
+
+##End-to-End Reference Pipeline
+
+<img width="1050" height="1518" alt="mermaid" src="https://github.com/user-attachments/assets/28b51496-31dc-49c2-a577-4cf5302764bd" />
+
+
 ---
 
 # **11. References (APA )**  
