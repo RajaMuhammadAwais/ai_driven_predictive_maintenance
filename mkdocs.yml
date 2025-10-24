@@ -31,9 +31,6 @@ theme:
 
 plugins:
   - search
-  - sitemap:
-      changefreq: daily
-      priority: 0.5
   - minify:
       minify_html: true
 
