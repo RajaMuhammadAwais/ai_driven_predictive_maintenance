@@ -2,7 +2,7 @@ name: Deploy MkDocs site to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "master"]
   workflow_dispatch:
 
 permissions:
@@ -33,7 +33,7 @@ jobs:
 
       - name: Install MkDocs, theme and plugins
         run: |
-          pip install mkdocs mkdocs-material
+          pip install mkdocs mkdocs-material mkdocs-material-extensions
           # MkDocs includes the built-in 'sitemap' plugin; no separate package is required.
           pip install mkdocs-minify-plugin mkdocs-redirects
 
