@@ -133,14 +133,14 @@ Year 2: Causal-inference module, RL agent training, internal validation.
 Year 3: Prospective testbed deployment, cost-benefit analysis, thesis write-up, conferences & journal submissions.  
 
 
-##End-to-End Reference Pipeline
+## **11. End-to-End Re erence Pipeline**  
 
 <img width="1050" height="1518" alt="mermaid" src="https://github.com/user-attachments/assets/28b51496-31dc-49c2-a577-4cf5302764bd" />
 
 
 ---
 
-# **11. References (APA )**  
+# **12. References (APA )**  
 Gartner. (2024). *How to quantify the cost of IT downtime* (ID G00776923).  
 
 Liu, F. T., Ting, K. M., & Zhou, Z.-H. (2022). Isolation-based anomaly detection. *ACM Transactions on Knowledge Discovery from Data, 6*(1), 1–39.  
